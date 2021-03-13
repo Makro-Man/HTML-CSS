@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Style/main.css">
+    <title>Account</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="./index.html" class="menu-items active-menu">Main</a>
+        <a href="./team.html" class="menu-items">Team</a>
+        <a href="./lessons.html" class="menu-items">Lessons</a>
+    </div>
+    <div class="container">
+        <div class="side">
+            <div class="dropdown">
+                <img src="./Style/images/folder.svg" alt="" class="img img-blue dropbtn">
+                <div class="dropdown-content">
+                    <a href="#">Project</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img src="./Style/images/monitor.svg" alt="" class="img dropbtn">
+                <div class="dropdown-content">
+                    <a href="./account.html">Account</a>
+                </div>
+            </div>
+             <div class="dropdown">
+                <img src="./Style/images/users-alt.svg" alt="" class="img dropbtn">
+                <div class="dropdown-content">
+                    <a href="#">Groups</a>
+                </div>
+            </div>
+             <div class="dropdown">
+                <img src="./Style/images/cloud-share.svg" alt="" class="img dropbtn">
+                <div class="dropdown-content">
+                    <a href="#">Cloud</a>
+                </div>
+            </div>
+             <div class="dropdown">
+                <img src="./Style/images/cog.svg" alt="" class="img dropbtn">
+                <div class="dropdown-content">
+                    <a href="#">Settings</a>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+           <img src="./Style/images/andycube.png" alt="" class="andy">
+            <p class="text"><span class="css">Andy Cube</span><br><span class="project">andycube@gmail.com</span>
+                </p>
+        </div>
+        <div class="changePassword">
+            <img src="./Style/images/zamok.png" alt="" class="zamok">
+            <p class="first"><span class="css">Change Password</span><br>
+                <span class="project">Please choose a password which is longer than 6 characters</span></p>
+                <form>
+                   <br><br><br>
+                    <p class="formText">Old password</p>
+                    <input type="password" class="textForm" placeholder="Enter password">
+                    <p class="formText">New password</p>
+                    <input type="password" class="textForm" placeholder="Enter password">
+                    <p class="formText">Confirm password</p>
+                    <input type="password" class="textForm" placeholder="Enter password">
+                    <input type="button" class="buttonSave" id="saveB" value="SAVE">
+                </form>
+        </div>
+        <div class="company">
+             <img src="./Style/images/zamok.png" alt="" class="zamok">
+            <p class="first"><span class="css">Company</span><br>
+                <span class="project">Optional, but we would appreciate if you fill out these form</span></p>
+                
+                <form>
+                   <br><br><br>
+                    <p class="formText">Company name</p>
+                    <input type="text" class="textForm" placeholder="Logos IT-academy">
+                    <p class="formText">Company address</p>
+                    <input type="text" id="address" placeholder="61 I.Franka, Lviv">
+                    <div id="formSome">
+                    <p class="formText tt">Country</p>
+                    <input type="text" class="enterSome" placeholder="Enter country">
+                    <p class="formText rigthText textSome tt" id="city">City</p>
+                    <input type="text" class="enterSome rigthText" placeholder="Enter city">
+                    <p class="formText tt">State</p>
+                    <input type="text" class="enterSome" placeholder="Enter state">
+                    <p class="formText rigthText textSome tt">Postal code</p>
+                    <input type="text " class="enterSome rigthText" placeholder="Enter code">
+                    </div>
+                    <input type="button" class="buttonSave" id="saveBut" value="SAVE">
+                </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

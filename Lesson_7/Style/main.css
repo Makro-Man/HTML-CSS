@@ -1,0 +1,244 @@
+@import url(./fonts.css);
+.header{
+    height: 120px;
+    width: 1440px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.img-logo{
+    margin-top:-16px;
+    margin-left: 7px;
+}
+.sliderOne{
+    width: 1440px;
+    height: 570px;
+    margin: 0 auto;
+    display: flex;
+}
+.left-slider{
+    width: 720px;
+    height: 100%;
+    background-image: url(./image/philip-martin-5aGUyCW_PJw-unsplash.png);
+}
+.right-slider{
+    width: 720px;
+    height: 100%;
+    background-color: black;
+}
+.textSlider{
+    
+    color:white;
+    height: 340;
+    width: 500px;
+    margin-top: 107px;
+    margin-left: 108px;
+}
+.life{
+    float: right;
+    font-size: 12px;
+}
+.data{
+    font-size: 14px;
+    letter-spacing: 8px;
+    margin-top: -2px;
+    position: absolute;
+    margin-top: -1px;
+}
+.vero{
+   letter-spacing: 1px;
+}
+.readMore{
+    height: 55px;
+    width: 200px;
+    border: 1px solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+.Second{
+    height: 1208px;
+    width: 1145px;
+    margin: 0 auto;
+    padding-top: 57px;
+    padding-left: 8px;
+}
+.imgSecond{
+    display: flex;
+    padding-top: 32px;
+}
+.secondMan{
+    margin-left: 26px;
+    height: 560px;
+    width: 556px;
+}
+.firstMan{
+     height: 560px;
+    width: 556px;
+}
+.firstImg{
+    margin-bottom: 25px;
+}
+.letter{
+    font-size: 18px;
+}
+.textFirstMan{
+    margin-top: 55px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+.seeAll{
+    height: 327px;
+    width: 1143px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+.see{
+    height: 325px;
+    width: 362px;
+}
+.seeImg{
+    margin-bottom: 17px;
+}
+.hImg{
+    margin-top: 35px;
+}
+.butSee{
+    height: 42px;
+    width: 238px;
+    background-color: black;
+    color: white;
+    margin-left: 453px;
+    margin-top: 60px;
+}
+.third{
+    height: 360px;
+    width: 1145px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    height: 100%;
+    width: 570px;
+    background-image: url(./image/photo-1520781359717-3eb98461c9fe.png);
+}
+.right{
+    height: 100%;
+    width: 570px;
+    background-color: black;
+}
+.issue{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 132px;
+    margin-left: -17px;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+.subscribe{
+    background-color: black;
+    color: white;
+    height: 42px;
+    width: 198px;
+    margin-left: 187px;
+}
+.fourth{
+    width: 1144px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.imgFourth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.divimg{
+    width: 362px;
+    margin-bottom: 10px;
+}
+.but{
+    margin-top: 8px;
+}
+.five{
+    margin-top: 29px;
+}
+.footer{
+     height: 140px;
+    width: 1440px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 92px;
+}
+.Des{
+    color: white;
+    position: absolute;
+    margin-top: 118px;
+    font-size: 12px;
+}
+.logo{
+    margin-top: -1px;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-image: url(./image/exit.png);
+    background-position: center;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -90px;
+}
+nav{
+    height: 0px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    line-height: 15px;
+    letter-spacing: 1px;
+    padding-top: 45px;
+    padding-left: 48px;
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 118px;
+    margin-top: -37px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    height: 315px;
+    width: 294px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
